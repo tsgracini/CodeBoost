@@ -26,3 +26,68 @@
 .btn-primary:hover {
   background-color: var(--pink-20);
 }
+
+.item-digital {
+  flex-grow: 1;
+  max-width: 38.4rem;
+}
+
+.item-digital .icon {
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.6rem;
+}
+
+.item-digital .info h6 {
+  margin-bottom: 0.8rem;
+}
+
+.item-digital .info p {
+  color: var(--gray-600);
+}
+
+.card-post {
+  border: 2px solid rgba(255, 255, 255, 0.08);
+  background-color: rgba(255, 255, 255, 0.02);
+  padding: 2.4rem;
+}
+
+.card-post .tag {
+  display: inline-block;
+  border-radius: 10rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 0.8rem 2.2rem;
+  color: var(--gray-100);
+  font-family: "Sora", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: 0.126rem;
+  text-transform: uppercase;
+  margin-bottom: 4.5rem;
+}
+
+.card-post .image {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 6.4rem;
+}
+
+.card-post .text {
+  width: 100%;
+  max-width: 50.8rem;
+}
+
+.card-post .text h6 {
+  margin-bottom: 0.8rem;
+}
+
+.card-post .text p {
+  font-size: 1.6rem;
+  color: var(--gray-600);
+}
