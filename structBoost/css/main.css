@@ -129,7 +129,6 @@ header nav ul li a:hover {
 
 .s-art-front {
   padding: 12.8rem 0;
-  display: none;
 }
 
 .s-art-front .title-text {
@@ -175,7 +174,6 @@ header nav ul li a:hover {
 .s-newsletter {
   padding: 8.9rem 0;
   background-color: var(--pink-10);
-  display: none;
 }
 
 .s-newsletter .container {
@@ -281,6 +279,17 @@ footer .copy strong {
   .item-digital .info p {
     font-size: 1.6rem;
   }
+
+  .s-art-front {
+    padding: 6rem 0;
+  }
+  .s-art-front .all {
+    gap: 1.6rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .s-art-front .all .card-post:first-child {
+    grid-column: span 2;
+  }
 }
 
 /* Até Tablets */
@@ -291,6 +300,22 @@ footer .copy strong {
   .s-digital ul {
     flex-direction: column;
     align-items: center;
+  }
+  .s-art-front .title-text {
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+  .s-art-front .title-text .left {
+    text-align: center;
+    max-width: 100%;
+  }
+  .s-art-front .title-text .left p {
+    max-width: 100%;
+    margin-top: 0.8rem;
+  }
+  .s-art-front .title-text .right {
+    max-width: 100%;
   }
 }
 
@@ -326,6 +351,12 @@ footer .copy strong {
     bottom: 3.7rem;
     left: 5rem;
     max-width: 6rem;
+  }
+  .s-art-front .all {
+    grid-template-columns: 1fr;
+  }
+  .s-art-front .all .card-post:first-child {
+    grid-column: initial;
   }
 }
 
@@ -383,5 +414,23 @@ footer .copy strong {
   }
   .s-digital h3 {
     font-size: 2.8rem;
+  }
+  .s-art-front {
+    padding: 8rem 0;
+  }
+  .s-art-front .all {
+    gap: 3.2rem;
+  }
+  .s-art-front .title-text h3 {
+    font-size: 2.8rem;
+    max-width: 22.7rem;
+    margin: 0 auto;
+  }
+  .s-art-front .title-text p {
+    font-size: 1.6rem;
+    margin-top: 1.6rem;
+  }
+  .s-newsletter h2 {
+    font-size: 4rem;
   }
 }
