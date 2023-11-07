@@ -19,8 +19,7 @@
   border: 1px solid rgba(255, 255, 255, 0.04);
   background-color: rgba(255, 255, 255, 0.04);
   padding: 0.4rem 0.4rem 0.4rem 2.4rem;
-  display: flex;
-  align-items: center;
+  @include flex-center;
   gap: 1.6rem;
   width: 100%;
   max-width: 52.1rem;
@@ -46,9 +45,7 @@
     border-radius: 0.4rem;
     border: 0.1rem solid rgba(255, 255, 255, 0.03);
     background-color: rgba(255, 255, 255, 0.03);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flexTotalCenter;
     margin-bottom: 1.6rem;
   }
   .text {
